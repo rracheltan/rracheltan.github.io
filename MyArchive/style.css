@@ -234,6 +234,10 @@ span{
   padding-top: 10px;
 }
 
+.carousel-indicators {
+  background: transparent;
+}
+
 .container-fluid1 {
   height: 10vh;
 }
