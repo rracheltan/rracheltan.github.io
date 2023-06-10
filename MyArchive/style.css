@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  color: #FFFFFF;
+  background-color: #000000;
+  text-align: center;
+  justify-content: center;
+}
+
+.navbar {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.navbar-brand {
+  font-family: "Humane";
+  font-weight: 600;
+  font-size: 40px;
+  color: #C8A2C8;
+  margin-left: 30px;
+}
+
+span{
+   color: #8DAB7F;
+}
+
+
+.content {
+  margin: 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 190px;
+  text-align: center;
+  position: static;
+}
+
+.content h1{
+  font-size: 160px;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+.content p{
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 300;
+}
+
+.content a{
+  text-decoration: none;
+  display: inline-block;
+  color: #FFFFFF;
+  font-size: 24px;
+  background-color: #8DAB7F;
+  padding: 14px 70px;
+  border-radius: 50px;
+  margin-top: 20px;
+}
+
+.background-image {
+  background-image: url(img/homebg.JPG);
+  margin: 0;
+  height: 120vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.background-image1 {
+  background-image: url(img/homebg.JPG);
+  margin: 0;
+  height: 250vh;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.title {
+  margin: 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 80px;
+  text-align: center;
+  position: static;
+}
+
+.title h1{
+  font-size: 30px;
+  color: #FFFFFF;
+  font-weight: 600;
+}
+
+
+.card {
+  width: 250px;
+  height: 300px;
+  display: inline-block;
+  border-radius: 10px;
+  padding: 15px 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  margin: 30px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: transform 0.5s;
+  object-fit: cover;
+}
+
+.card h5{
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-shadow: 0 0 5px #8DAB7F;
+  margin-top: 25px;
+}
+
+.card p{
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: 300;
+  text-shadow: 0 0 20px #C8A2C8;
+}
+
+.card1 {
+  background-image: url(img/card1.0.JPG);
+  background-color: #000000;
+  padding-top: 80px;
+  display: inline-block;
+
+}
+
+.card2 {
+  background-image: url(img/card2.0.JPG);
+  background-color: #000000;
+  padding-top: 80px;
+  display: inline-block;
+}
+
+.card3 {
+  background-image: url(img/card3.0.jpg);
+  background-color: #000000;
+  padding-top: 80px;
+  display: inline-block;
+}
+
+.card4 {
+  background-color: #000000;
+  padding-top: 100px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.introduction {
+  margin: 0px;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 80px;
+  text-align: center;
+  position: static;
+}
+
+.introduction h1{
+  font-size: 30px;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-shadow: 0 0 5px #8DAB7F;
+}
+
+.introduction h2{
+  font-size: 20px;
+  color: #FFFFFF;
+  font-weight: 500;
+  padding-top: 60px;
+}
+
+.introduction p{
+  font-size: 15px;
+  color: #FFFFFF;
+  font-weight: 300;
+  padding-top: 10px;
+}
+
+.container-fluid1 {
+  height: 20vh;
+}
+
+.aboutme {
+  margin: 200px;
+  margin-left: 300px;
+  margin-right: 300px;
+  text-align: center;
+}
+
+.aboutme h1 {
+  text-shadow: 0 0 5px #8DAB7F;
+  font-size: 100px;
+}
+
+.row {
+  height: 40vh;
+  width: 100%;
+}
+
+.image-fluid {
+  height: 504px;
+  width: 392px;
+  margin-left: 300px;
+  margin-right: 100px;
+}
+
+.col-sm-4 {
+  margin-top: 100px;
+}
+
+.col-12 {
+  margin-top: 40px;
+}
+
+.col-12 h6 {
+  height: 10vh;
+}
